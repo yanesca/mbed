@@ -492,6 +492,19 @@ class K64F(Target):
         self.default_toolchain = "ARM"
         self.detect_code = ["0240"]
 
+#integration target for KSDK1.2
+class FRDM_K64F(Target):
+    def __init__(self):
+        Target.__init__(self)
+        self.core = "Cortex-M4F"
+        self.extra_labels = ['Freescale', 'KSDK', 'MK64F12']
+        self.macros = ["CPU_MK64FN1M0VMD12"]
+        self.supported_toolchains = ["ARM", "GCC_ARM", "IAR"]
+        self.supported_form_factors = ["ARDUINO"]
+        self.is_disk_virtual = True
+        self.default_toolchain = "ARM"
+        self.detect_code = ["0240"]
+
 class MTS_GAMBIT(Target):
     def __init__(self):
         Target.__init__(self)
