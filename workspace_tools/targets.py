@@ -1313,6 +1313,7 @@ TARGETS = [
     TEENSY3_1(),
     K22F(),
     K64F(),
+    FRDM_K64F(),
     MTS_GAMBIT(),   # FRDM K64F
 
     ### STMicro ###
