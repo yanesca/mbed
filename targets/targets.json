@@ -1882,7 +1882,7 @@
         "macros": ["EFM32PG1B200F256GM48"],
         "extra_labels": ["Silicon_Labs", "EFM32"],
         "supported_toolchains": ["GCC_ARM", "ARM", "uARM", "IAR"],
-        "device_has": ["ANALOGIN", "ERROR_PATTERN", "I2C", "I2CSLAVE", "I2C_ASYNCH", "INTERRUPTIN", "LOWPOWERTIMER", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SERIAL_ASYNCH", "SLEEP", "SPI", "SPISLAVE", "SPI_ASYNCH", "STDIO_MESSAGES"],
+        "device_has": ["ANALOGIN", "ERROR_PATTERN", "I2C", "I2CSLAVE", "I2C_ASYNCH", "INTERRUPTIN", "LOWPOWERTIMER", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SERIAL_ASYNCH", "SLEEP", "SPI", "SPISLAVE", "SPI_ASYNCH", "STDIO_MESSAGES", "CRYPTO"],
         "forced_reset_timeout": 2,
         "release_versions": ["2", "5"],
         "device_name": "EFM32PG1B100F256GM32"
