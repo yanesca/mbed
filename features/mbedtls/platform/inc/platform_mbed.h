@@ -21,6 +21,10 @@
 #define MBEDTLS_ENTROPY_HARDWARE_ALT
 #endif
 
+#if defined(DEVICE_CRYPTO)
+#include "mbedtls_device.h"
+#endif
+
 /*
  * Enable mbed TLS to use mbed OS mutexes
  */
