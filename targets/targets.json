@@ -1879,10 +1879,10 @@
     "EFM32PG_STK3401": {
         "inherits": ["Target"],
         "core": "Cortex-M4F",
-        "macros": ["EFM32PG1B200F256GM48"],
+        "macros": ["EFM32PG1B200F256GM48", "MBEDTLS_HW_SUPPORT"],
         "extra_labels": ["Silicon_Labs", "EFM32"],
         "supported_toolchains": ["GCC_ARM", "ARM", "uARM", "IAR"],
-        "device_has": ["ANALOGIN", "ERROR_PATTERN", "I2C", "I2CSLAVE", "I2C_ASYNCH", "INTERRUPTIN", "LOWPOWERTIMER", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SERIAL_ASYNCH", "SLEEP", "SPI", "SPISLAVE", "SPI_ASYNCH", "STDIO_MESSAGES", "CRYPTO"],
+        "device_has": ["ANALOGIN", "ERROR_PATTERN", "I2C", "I2CSLAVE", "I2C_ASYNCH", "INTERRUPTIN", "LOWPOWERTIMER", "PORTIN", "PORTINOUT", "PORTOUT", "PWMOUT", "RTC", "SERIAL", "SERIAL_ASYNCH", "SLEEP", "SPI", "SPISLAVE", "SPI_ASYNCH", "STDIO_MESSAGES"],
         "forced_reset_timeout": 2,
         "release_versions": ["2", "5"],
         "device_name": "EFM32PG1B100F256GM32"
